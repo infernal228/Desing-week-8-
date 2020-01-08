@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lora&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.colors, .typography{
+    margin-top: 1px;
+}
+
+.colors{
+    padding: 100px;
+}
+
+.typography{
+    padding: 100px;
+}
+
+.header{
+    font-family: 'Lora', serif;
+    font-size: 45px;
+    padding: 20px;
+}
+
+.typography-list{
+    padding: 10px;
+}
+
+.header-list{
+    font-family: 'Lora', serif;
+}
+
+.font-list{
+    font-family: 'Lora', serif;
+}
+
+.p-list{
+    font-family: 'Inconsolata', monospace;
+}
+
+.p-font-list{
+    font-family: 'Inconsolata', monospace;
+}
+
+.colors-list{
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+}
+
+.colors-list li{
+    padding: 20px;
+}
+
+.color-color{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.color-black{
+    background-color: #000;
+}
+
+.color-aquamarine{
+    background-color: #7fffd4;
+}
+
+.color-burgundy{
+    background-color: #800020;
+}
